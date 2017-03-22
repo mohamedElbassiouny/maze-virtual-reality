@@ -1,75 +1,30 @@
-VR_Game_Project3
 
-This project is focused on learning to code the scripts that bring everything to life. Skills include:
+# Udacity_maze_course3
 
-Creating new C# scripts in Unity
-If then, loops, arrays, and other programming constructs
-Attaching scripts to objects
-Using the built-in Monobehaviour methods
-Triggers and Gaze Based Interaction
-Creating, moving and animating objects procedurally
-Familiarization with the Unity documentation
-Scripting Dynamic UI Objects
-Debugging
-The Unity Event System.
-Managing and Reloading scenes.
-Controlling particle systems.
-Create an Audio Clip and playing sounds.
-Waypoint Navigation System.
-Profiling scenes for performance.
-Viewing MY App On a Device (Android or IOS)
+A maze project with udacity. learning environment, sounds, experience, ...
+start the project.play at a maze and find the kry to win  and finish the game. 
 
-Screenshot of Unity app running on phone
-Successful build of the app (apk file for Android and XCode project for iOS)
-All the player settings are correctly modified in order to build to device
-animation
+## Used Software
 
-I worked a total of the animation (KEY,COIN). To make the game better Possible use by animator open the animator And arrange them as you like
+* Unity 5.3.f03
+* Google SDK 1.03
+* Udacity maze Starter set
 
-Motivation
+## Installation
 
-create my first fully interactive multisensory VR experience!
+To install this project make the following:
 
-Installation
+* clone it
+* import the Google SDK 1.03
+* setup the android platform for building
 
-use the script and put in unity drag and drop
+# Licence
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+This project ist under the MIT license
 
-public class Mobile : MonoBehaviour {
+# Known Bugs
 
-    // Use this for initialization
-    void Start () {
-
-    }
-
-    // Update is called once per frame
-    void Update () {
-       // transform.Rotate(0, Input.acceleration.y * 10f * Time.deltaTime, 0);
-        //Input.acceleration.x * Time.deltaTime * 10f
-      //  transform.Rotate(Input.acceleration.x * Time.deltaTime * 10f, 0, 0);
-
-
-        //Input.acceleration.y * 10f * Time.deltaTime
-
-       transform.Rotate(0, 0, Input.acceleration.y * 10f * Time.deltaTime);
-    }
-}
-Google VR SDK for Unity
-
-Enables Daydream and Cardboard app development in Unity.
-
-Copyright (c) 2016 Google Inc. All rights reserved.
-
-For updates, known issues, and upgrade instructions, see: https://developers.google.com/vr/unity/release-notes
-
-For first time users, see the Get Started Guides for Android Cardboard, Android Daydream, and iOS Cardboard.
-
-API Script FOR UNITY
-
-API SCRIPT
+when the game starts and you stay in the room, the orbs will light up as expecting. But you cant finish even when you repeat the sequence.
 
 Contributors
 
